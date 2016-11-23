@@ -1,5 +1,5 @@
 {
-  "version": "0.3",
+  "version": "0.4",
   "id": "18fe34d8a2b0",
   "nickname": "eins4zwo_keller",
   "sensors": {
@@ -7,12 +7,14 @@
       {
         "name": "feuchte_keller",
         "value": 58.888,
-        "unit": "%"
+        "unit": "%",
+        "sensor": "bme280"
       },
       {
         "name": "feuchte_dach",
         "value": 28.888,
-        "unit": "%"
+        "unit": "%",
+        "sensor": "dht11"
       }
     ]
   },
