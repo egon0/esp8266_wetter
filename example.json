@@ -1,32 +1,20 @@
 {
-  "version": "0.2",
+  "version": "0.3",
   "id": "18fe34d8a2b0",
   "nickname": "eins4zwo_keller",
   "sensors": {
-    "humidity": {
-      "someID_313": {
+    "humidity": [
+      {
         "name": "feuchte_keller",
         "value": 58.888,
         "unit": "%"
       },
-      "someID_907": {
+      {
         "name": "feuchte_dach",
         "value": 28.888,
         "unit": "%"
       }
-    },
-    "temperature": {
-      "value": 19,
-      "unit": "Â°C"
-    },
-    "luminance": {
-      "value": 33,
-      "unit": "lx"
-    },
-    "pressure": {
-      "value": 989.322,
-      "unit": "mBar"
-    }
+    ]
   },
   "system": {
     "voltage": 3.178,
